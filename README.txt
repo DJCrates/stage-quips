@@ -1,22 +1,21 @@
-STAGE QUIPS WEBSITE — QUICK SETUP
+STAGE QUIPS WEBSITE — VERSION 2
 
-1. Open index.html in Notepad.
-2. Press Ctrl+H.
-3. Replace every instance of:
-   YOUR_PRIVATE_CHECKOUT_LINK_HERE
-   with your private Payhip product/checkout link or PayPal payment link.
-4. Save the file.
-
-UPLOAD TO GITHUB PAGES
-
-1. Log in to GitHub and create a new repository, for example: stage-quips
-2. Upload index.html, styles.css and the assets folder.
-3. Open the repository Settings.
-4. Select Pages.
-5. Under Build and deployment, choose “Deploy from a branch”.
-6. Select the main branch and /root, then Save.
-7. GitHub will display the live website address after a short wait.
+FILES TO UPLOAD TO GITHUB
+1. index.html
+2. styles.css
+3. the complete assets folder
 
 IMPORTANT
+Upload these into the main (top-level) area of your existing stage-quips repository.
+Allow GitHub to replace the old index.html and styles.css when prompted.
+Then commit the changes.
 
-GitHub Pages websites are public. The payment button can use a private/unlisted Payhip link, but the website itself cannot be genuinely private unless you use a different hosting arrangement.
+PAYMENT LINK
+Every purchase button points directly to:
+https://payhip.com/buy?link=1gcLD
+
+TESTING
+After GitHub Pages updates, click every black “Download Stage Quips — £19.99” button.
+Each one should open the Payhip checkout.
+
+The Look Inside section currently contains a deliberate placeholder for the selected interior preview images.
