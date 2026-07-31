@@ -1,21 +1,15 @@
-STAGE QUIPS WEBSITE — VERSION 2
+STAGE QUIPS WEBSITE — VERSION 3
 
-FILES TO UPLOAD TO GITHUB
-1. index.html
-2. styles.css
-3. the complete assets folder
+Upload to the top level of the existing GitHub repository:
+- index.html
+- styles.css
+- the complete assets folder
 
-IMPORTANT
-Upload these into the main (top-level) area of your existing stage-quips repository.
-Allow GitHub to replace the old index.html and styles.css when prompted.
-Then commit the changes.
+Allow GitHub to replace the old files, then commit.
 
-PAYMENT LINK
-Every purchase button points directly to:
+Every purchase button links to:
 https://payhip.com/buy?link=1gcLD
 
-TESTING
-After GitHub Pages updates, click every black “Download Stage Quips — £19.99” button.
-Each one should open the Payhip checkout.
+The Look Inside section contains designed placeholders until the real interior preview pages are selected.
 
-The Look Inside section currently contains a deliberate placeholder for the selected interior preview images.
+After deployment, test in an Incognito/Private window to avoid cached older files.
